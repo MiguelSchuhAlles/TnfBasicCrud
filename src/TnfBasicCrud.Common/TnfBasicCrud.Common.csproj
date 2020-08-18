@@ -8,8 +8,4 @@
     <PackageReference Include="Tnf.Dto" Version="3.0.1.17001" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Purchase\" />
-  </ItemGroup>
-
 </Project>

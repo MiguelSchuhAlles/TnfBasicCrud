@@ -2,6 +2,7 @@
 using TnfBasicCrud.Domain.Entities;
 using TnfBasicCrud.Common.Customer;
 using TnfBasicCrud.Common.Product;
+using TnfBasicCrud.Common.Purchase;
 
 namespace TnfBasicCrud.Infra.MapperProfiles
 {
@@ -11,6 +12,7 @@ namespace TnfBasicCrud.Infra.MapperProfiles
         {
             CreateMap<Customer, CustomerDto>();
             CreateMap<Product, ProductDto>();
+            CreateMap<Purchase, PurchaseDto>();
         }
     }
 }

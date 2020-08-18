@@ -86,5 +86,46 @@
             </summary>
             <param name="id">Product id</param>
         </member>
+        <member name="T:TnfBasicCrud.API.Controllers.PurchasesController">
+            <summary>
+            Purchase API
+            </summary>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.PurchasesController.GetAll(TnfBasicCrud.Common.Purchase.PurchaseRequestAllDto)">
+            <summary>
+            Get all purchases
+            </summary>
+            <param name="requestDto">Request params</param>
+            <returns>List of purchases</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.PurchasesController.Get(System.Guid,Tnf.Dto.RequestDto)">
+            <summary>
+            Get purchase
+            </summary>
+            <param name="id">Purchase id</param>
+            <param name="requestDto">Request params</param>
+            <returns>Purchase requested</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.PurchasesController.Post(TnfBasicCrud.Common.Purchase.PurchaseDto)">
+            <summary>
+            Create a new purchase
+            </summary>
+            <param name="purchaseDto">Purchase to create</param>
+            <returns>Purchase created</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.PurchasesController.Put(System.Guid,TnfBasicCrud.Common.Purchase.PurchaseDto)">
+            <summary>
+            Update a purchase
+            </summary>
+            <param name="id">Purchase id</param>
+            <param name="purchaseDto">Purchase content to update</param>
+            <returns>Updated purchase</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.PurchasesController.Delete(System.Guid)">
+            <summary>
+            Delete a purchase
+            </summary>
+            <param name="id">Purchase id</param>
+        </member>
     </members>
 </doc>

@@ -12,6 +12,8 @@ namespace TnfBasicCrud.Infra.Context
 
         public DbSet<Product> Products { get; set; }
 
+        public DbSet<Purchase> Purchases { get; set; }
+
 
         // Importante o construtor do contexto receber as opções com o tipo generico definido: DbContextOptions<TDbContext>
         public TnfBasicCrudContext(DbContextOptions<TnfBasicCrudContext> options, ITnfSession session)
