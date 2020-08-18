@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TnfBasicCrud.API</name>
+    </assembly>
+    <members>
+        <member name="T:TnfBasicCrud.API.Controllers.CustomersController">
+            <summary>
+            Customer API
+            </summary>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.CustomersController.GetAll(TnfBasicCrud.Common.Customer.CustomerRequestAllDto)">
+            <summary>
+            Get all customers
+            </summary>
+            <param name="requestDto">Request params</param>
+            <returns>List of customers</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.CustomersController.Get(System.Guid,Tnf.Dto.RequestDto)">
+            <summary>
+            Get customer
+            </summary>
+            <param name="id">Customer id</param>
+            <param name="requestDto">Request params</param>
+            <returns>Customer requested</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.CustomersController.Post(TnfBasicCrud.Common.Customer.CustomerDto)">
+            <summary>
+            Create a new customer
+            </summary>
+            <param name="customerDto">Customer to create</param>
+            <returns>Customer created</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.CustomersController.Put(System.Guid,TnfBasicCrud.Common.Customer.CustomerDto)">
+            <summary>
+            Update a customer
+            </summary>
+            <param name="id">Customer id</param>
+            <param name="customerDto">Customer content to update</param>
+            <returns>Updated customer</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.CustomersController.Delete(System.Guid)">
+            <summary>
+            Delete a customer
+            </summary>
+            <param name="id">Customer id</param>
+        </member>
+        <member name="T:TnfBasicCrud.API.Controllers.ProductsController">
+            <summary>
+            Product API
+            </summary>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.ProductsController.GetAll(TnfBasicCrud.Common.Product.ProductRequestAllDto)">
+            <summary>
+            Get all products
+            </summary>
+            <param name="requestDto">Request params</param>
+            <returns>List of products</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.ProductsController.Get(System.Guid,Tnf.Dto.RequestDto)">
+            <summary>
+            Get product
+            </summary>
+            <param name="id">Product id</param>
+            <param name="requestDto">Request params</param>
+            <returns>Product requested</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.ProductsController.Post(TnfBasicCrud.Common.Product.ProductDto)">
+            <summary>
+            Create a new product
+            </summary>
+            <param name="customerDto">Product to create</param>
+            <returns>Product created</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.ProductsController.Put(System.Guid,TnfBasicCrud.Common.Product.ProductDto)">
+            <summary>
+            Update a product
+            </summary>
+            <param name="id">Product id</param>
+            <param name="customerDto">Product content to update</param>
+            <returns>Updated product</returns>
+        </member>
+        <member name="M:TnfBasicCrud.API.Controllers.ProductsController.Delete(System.Guid)">
+            <summary>
+            Delete a product
+            </summary>
+            <param name="id">Product id</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Tnf.AutoMapper" Version="3.0.1.17001" />
+    <PackageReference Include="Tnf.EntityFrameworkCore" Version="3.0.1.17001" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TnfBasicCrud.Common\TnfBasicCrud.Common.csproj" />
+    <ProjectReference Include="..\TnfBasicCrud.Domain\TnfBasicCrud.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

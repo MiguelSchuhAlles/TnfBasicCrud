@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TnfBasicCrud.Domain\TnfBasicCrud.Domain.csproj" />
+    <ProjectReference Include="..\TnfBasicCrud.Infra\TnfBasicCrud.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
