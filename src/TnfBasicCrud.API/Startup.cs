@@ -105,9 +105,9 @@ namespace TnfBasicCrud.API
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "TNF Basic CRUD API v1");
             });
 
-            app.UseEndpoints(endpoints =>
+            app.UseEndpoints(builder =>
             {
-                endpoints.MapControllers();
+                builder.MapDefaultControllerRoute();
             });
         }
     }

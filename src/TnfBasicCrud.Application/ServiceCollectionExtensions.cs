@@ -19,6 +19,7 @@ namespace TnfBasicCrud.Application
             // Registro dos serviços
             services.AddTransient<ICustomerAppService, CustomerAppService>();
             services.AddTransient<IProductAppService, ProductAppService>();
+            services.AddTransient<IPurchaseAppService, PurchaseAppService>();
 
             return services;
         }

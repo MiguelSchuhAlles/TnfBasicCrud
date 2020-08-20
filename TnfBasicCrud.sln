@@ -7,17 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25CF121B-188
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7823D2C1-B5D2-433C-B344-782E1D8A1A98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TnfBasicCrud.Domain", "src\TnfBasicCrud.Domain\TnfBasicCrud.Domain.csproj", "{05D2C03E-275B-485E-A95A-C0522F2746A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TnfBasicCrud.Domain", "src\TnfBasicCrud.Domain\TnfBasicCrud.Domain.csproj", "{05D2C03E-275B-485E-A95A-C0522F2746A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TnfBasicCrud.Infra", "src\TnfBasicCrud.Infra\TnfBasicCrud.Infra.csproj", "{1BE77CA8-DB7F-43FC-966C-DEEBA17C7AFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TnfBasicCrud.Infra", "src\TnfBasicCrud.Infra\TnfBasicCrud.Infra.csproj", "{1BE77CA8-DB7F-43FC-966C-DEEBA17C7AFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TnfBasicCrud.Infra.SqlServer", "src\TnfBasicCrud.Infra.SqlServer\TnfBasicCrud.Infra.SqlServer.csproj", "{0E57E851-4CC6-4325-92D2-29088473780D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TnfBasicCrud.Infra.SqlServer", "src\TnfBasicCrud.Infra.SqlServer\TnfBasicCrud.Infra.SqlServer.csproj", "{0E57E851-4CC6-4325-92D2-29088473780D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TnfBasicCrud.API", "src\TnfBasicCrud.API\TnfBasicCrud.API.csproj", "{2EB966D2-1329-4ED6-B297-800433FD2F22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TnfBasicCrud.API", "src\TnfBasicCrud.API\TnfBasicCrud.API.csproj", "{2EB966D2-1329-4ED6-B297-800433FD2F22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TnfBasicCrud.Common", "src\TnfBasicCrud.Common\TnfBasicCrud.Common.csproj", "{543FC2B6-4A6C-4D55-96E0-020FB203519F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TnfBasicCrud.Common", "src\TnfBasicCrud.Common\TnfBasicCrud.Common.csproj", "{543FC2B6-4A6C-4D55-96E0-020FB203519F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TnfBasicCrud.Application", "src\TnfBasicCrud.Application\TnfBasicCrud.Application.csproj", "{F9EAD21E-90BD-480A-B299-2765844045A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TnfBasicCrud.Application", "src\TnfBasicCrud.Application\TnfBasicCrud.Application.csproj", "{F9EAD21E-90BD-480A-B299-2765844045A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TnfBasicCrud.API.Tests", "test\TnfBasicCrud.API.Tests\TnfBasicCrud.API.Tests.csproj", "{EBD39719-2270-409D-ABE2-8823DC06A694}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{F9EAD21E-90BD-480A-B299-2765844045A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9EAD21E-90BD-480A-B299-2765844045A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9EAD21E-90BD-480A-B299-2765844045A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD39719-2270-409D-ABE2-8823DC06A694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD39719-2270-409D-ABE2-8823DC06A694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD39719-2270-409D-ABE2-8823DC06A694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD39719-2270-409D-ABE2-8823DC06A694}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{2EB966D2-1329-4ED6-B297-800433FD2F22} = {25CF121B-1881-4D15-AE28-5CB1D43623DB}
 		{543FC2B6-4A6C-4D55-96E0-020FB203519F} = {25CF121B-1881-4D15-AE28-5CB1D43623DB}
 		{F9EAD21E-90BD-480A-B299-2765844045A6} = {25CF121B-1881-4D15-AE28-5CB1D43623DB}
+		{EBD39719-2270-409D-ABE2-8823DC06A694} = {7823D2C1-B5D2-433C-B344-782E1D8A1A98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2883BA44-8745-4C06-B288-7B75564B0AF4}
